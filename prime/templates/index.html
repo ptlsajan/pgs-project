@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% load staticfiles %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="{% static 'fonts/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="{% static 'css/styles.min.css' %}">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-dark" id="mainNav" style="margin: auto;">
+        <div class="container"><a class="navbar-brand" href="index.html">Prime Group Security</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="about.html">About us</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Contact us</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="post.html">Blog Post</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead" style="background-image:url(home-bg.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto">
+                    <div class="site-heading">
+                        <h1 style="width: auto;max-width: auto;min-width: auto;font-size: 65px;">Prime Group Security</h1><span class="subheading">Your Security is Our Concern</span></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid" id="who-are-we">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center" style="color: rgb(33,37,41);">Who are we?</h2>
+                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis mauris accumsan, aliquet dui vel, rutrum dolor. Nunc vitae auctor metus. Quisque posuere nibh ut sem tincidunt, quis feugiat elit lobortis. Sed ut fringilla purus. Suspendisse
+                    volutpat ex non sem vehicula venenatis ut sed purus. Nunc eget fermentum metus, non consectetur velit. Donec semper leo a tellus posuere mollis. Duis a eleifend metus. Sed viverra enim sit amet mattis viverra. Ut euismod viverra lectus
+                    id aliquam. Cras eget odio mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec ipsum nulla, vestibulum id diam eu, malesuada malesuada ex. Vestibulum et volutpat mauris. Donec sagittis
+                    sem vitae lacinia pellentesque. Ut mattis viverra aliquam. </p>
+            </div>
+        </div>
+    </div>
+    <!-- Start: Block 3 (Row1, Col3) -->
+    <div id="whychooseus" class="article-list">
+        <h2 class="text-center" id="whychooseus-heading" style="color: rgb(33,37,41);">Why choose us?</h2>
+        <!-- Start: Articles -->
+        <div class="row articles" style="padding-right:16px;padding-left:16px;">
+            <div class="col-sm-6 col-md-4 item" style="padding-top:10px;padding-bottom:28px;"><img class="img-fluid" data-aos="fade-up" data-aos-duration="2500" src="{% static 'img/blog1.jpg' %}">
+                <h4 class="text-center" data-aos="fade-up" data-aos-duration="2500" id="grid-column-heading" style="margin-top: 10px;color: rgb(33,37,41);">Engineering</h4>
+                <p class="text-center description" data-aos="fade-up" data-aos-duration="2500" id="grid-column" style="font-size: 16px;font-family: 'Open Sans', sans-serif;color: rgb(33,37,41);">DENVER engineering is a well-known organization providing reliable services for Building Industry. We specialize in building design, construction and maintenance.<br></p>
+                <div data-aos="fade-up" data-aos-duration="2500"><a class="btn btn-primary" role="button" style="font-family: Raleway, sans-serif;margin-top: 15px;" href="#">Read More</a></div>
+            </div>
+
+        </div>
+        <!-- End: Articles -->
+    </div>
+    <!-- End: Block 3 (Row1, Col3) -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></li>
+                        <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></li>
+                        <li class="list-inline-item"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></li>
+                    </ul>
+                    <p class="text-muted copyright">Copyright&nbsp;©&nbsp;Brand 2018</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="{% static 'js/script.min.js' %}"></script>
+</body>
+
+</html>
